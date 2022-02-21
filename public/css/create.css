@@ -1,0 +1,35 @@
+.form-control label{
+    display: block;
+    font-size: xx-large;
+    margin: 1rem 0;
+}
+.form-control input{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 70vw;
+    height: 5vh;
+    font-size: larger;
+    text-align: start;
+}
+#content{
+    height: 400px;
+}
+.blog-form_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-control input:focus{
+    outline-color: chartreuse;
+}
+#submit_blog{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+    margin: 5% 45%;
+}
+button:hover,
+button:active{
+    background-color: white;
+    color: chartreuse;
+}

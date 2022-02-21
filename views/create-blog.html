@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create blogs</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/create.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header_nav">
+            <ul class="main-header_item-list">
+                <li class="main-header_item"><a href="/">Blogs</a></li>
+                <li class="main-header_item"><a class="active">Create blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="heading">Create blog:</h1>
+        <div class="blog-form_div">
+            <form class="blog-form" action="/blog" method="post">
+                <div class="form-control">
+                    <label for="title">Blog Title</label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div class="form-control">
+                    <label for="author">Blog Author</label>
+                    <input type="text" name="author" id="author">
+                </div>
+                <div class="form-control">
+                    <label for="content">Blog Content</label>
+                    <input type="text" name="content" id="content">
+                </div>
+                <button id="submit_blog" type="submit">Add blog</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
